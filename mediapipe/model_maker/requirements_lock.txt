@@ -49,7 +49,7 @@ etils[array-types,enp,epath,epy,etqdm,etree]==1.5.2
     #   tensorflow-datasets
 flatbuffers==24.3.25
     # via tensorflow
-fonttools==4.54.1
+fonttools==4.60.2
     # via matplotlib
 fsspec==2024.9.0
     # via etils
@@ -84,7 +84,7 @@ grpcio==1.66.2
     #   tensorflow
 h5py==3.12.1
     # via tensorflow
-httplib2==0.22.0
+httplib2==0.32.0
     # via
     #   google-api-python-client
     #   google-auth-httplib2
@@ -156,7 +156,7 @@ packaging==24.1
     #   tensorflow-addons
 pandas==2.2.3
     # via tf-models-official
-pillow==10.4.0
+pillow==12.3.0
     # via
     #   matplotlib
     #   tf-models-official
@@ -166,7 +166,7 @@ promise==2.3
     # via tensorflow-datasets
 proto-plus==1.24.0
     # via google-api-core
-protobuf==4.25.5
+protobuf==5.29.6
     # via
     #   google-api-core
     #   googleapis-common-protos
@@ -182,7 +182,7 @@ psutil==6.0.0
     #   tf-models-official
 py-cpuinfo==9.0.0
     # via tf-models-official
-pyasn1==0.6.1
+pyasn1==0.6.4
     # via
     #   oauth2client
     #   pyasn1-modules
@@ -231,7 +231,7 @@ scipy==1.13.1
     # via
     #   scikit-learn
     #   tf-models-official
-sentencepiece==0.2.0
+sentencepiece==0.2.1
     # via tf-models-official
 seqeval==1.2.2
     # via tf-models-official
@@ -334,7 +334,7 @@ zipp==3.20.2
     # via etils
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==70.3.0
+setuptools==83.0.0
     # via
     #   -r mediapipe/opensource_only/model_maker_requirements_bazel.txt
     #   tensorboard
